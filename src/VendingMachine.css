@@ -1,5 +1,5 @@
 .VendingMachine {
-    background-color: tomato;
+    background-color: lightgray;
     text-align: center;
     font-weight: bold;
   }
@@ -8,17 +8,17 @@
     padding: 0.5em 0;
     width: 10em;
     display: inline-block;
-    color: white;
+    color: black;
     text-decoration: none;
   }
   
   .VendingMachine a:hover {
     background-color: black;
-    color: white !important;
+    color: red !important;
   }
   
   .VendingMachine a.active {
     font-weight: bold;
-    color: black;
+    color: red;
   }
   

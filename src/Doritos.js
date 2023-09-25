@@ -1,14 +1,18 @@
 import React from "react";
+import './Doritos.css'
+import doritosImage from './image/doritosImage.png';
+
 
 function Doritos() {
     return (
-        <div>
+        <div className="Doritos">
         <h1>Doritos Ranch Style</h1>
-        {/* <img
-          src="https://i.giphy.com/pBj0EoGSYjGms.gif"
-          alt="Audrey II wants to eat."
-        /> */}
+        <img
+          src={doritosImage}
+          alt="doritos image"
+        />
         <p>crunch crunch crunch crunch crunch</p>
+
       </div>
     );
 }

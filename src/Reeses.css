@@ -1,0 +1,21 @@
+.Reeses {
+    background-color: orange;
+    color: white;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        black 0%,
+        black 20%,
+        orange 20%,
+        orange 40%,
+        black 40%,
+        black 60%,
+        orange 60%,
+        orange 80%,
+        black 80%,
+        black 100%
+      );
+}

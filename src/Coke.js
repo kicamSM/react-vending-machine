@@ -1,13 +1,15 @@
 import React from "react";
+import './Coke.css';
+import cokeImage from './image/cokeImage.png';
 
 function Coke() {
     return (
-        <div>
+        <div className="Coke">
         <h1>Have a Coke!</h1>
-        {/* <img
-          src="https://i.giphy.com/pBj0EoGSYjGms.gif"
-          alt="Audrey II wants to eat."
-        /> */}
+        <img
+          src={cokeImage}
+          alt="coke image"
+        />
         <p>coke coke coke coke coke coke coke coke coke</p>
       </div>
     );

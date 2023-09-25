@@ -1,0 +1,21 @@
+.Doritos {
+    background-color: rgb(34, 34, 209);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .Doritos img {
+    animation: spin 2s linear infinite;
+  }
